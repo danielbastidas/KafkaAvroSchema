@@ -1,0 +1,59 @@
+{
+  "name": "Student",
+  "namespace": "com.blueparrotriot.avro.student",
+  "type": "record",
+  "fields": [
+      {
+        "name": "id",
+        "type": "double"
+      },
+      {
+        "name": "female",
+        "type": "string"
+      },
+      {
+        "name": "ses",
+        "type": "string"
+      },
+      {
+        "name": "schtyp",
+        "type": "string"
+      },
+      {
+        "name": "prog",
+        "type": "string"
+      },
+      {
+        "name": "read",
+        "type": "double"
+      },
+      {
+        "name": "write",
+        "type": "double"
+      },
+      {
+        "name": "math",
+        "type": "double"
+      },
+      {
+        "name": "science",
+        "type": "double"
+      },
+      {
+        "name": "socst",
+        "type": "double"
+      },
+      {
+        "name": "honors",
+        "type": "string"
+      },
+      {
+        "name": "awards",
+        "type": "double"
+      },
+      {
+        "name": "cid",
+        "type": "int"
+      }
+  ]
+}
